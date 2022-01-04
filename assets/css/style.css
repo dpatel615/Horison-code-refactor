@@ -2,12 +2,13 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
+/* Set background color to white */
 body {
     background-color: #d9dcd6;
 }
-
+/* Set header background color and padding of 20px */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -23,7 +24,8 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+ /* Display Navigation bar inline with and to the right of brand name in header.
+Change the font-size, and add specified padding and margin to navigation bar */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -40,16 +42,16 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
-
+ /* Links shown without underline and in white, even after clicked */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* All paragraph elements set to 16px */ 
 p {
     font-size: 16px;
 }
-
+/* Backgroung image set up */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,82 +60,24 @@ p {
     background-size: cover;
     background-position: center;
 }
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* Have content section set up */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
+/* Float images to the left with right margin of 25px */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/* Float images to the right with left margin of 25px */
+.float-right {
     float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    margin-left: 25px;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+ /* Style each content with same background color and text color. */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,41 +104,103 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* image in sreach-engine-optimization max height of 200px, for uniform look */
 .search-engine-optimization img {
     max-height: 200px;
 }
-
+/* image in online reputation max height of 200px, for uniform look */
 .online-reputation-management img {
     max-height: 200px;
 }
-
+/* image in social media marketing max height of 200px, for uniform look */
 .social-media-marketing img {
     max-height: 200px;
 }
-
+/* Make search optimization headings larger with spacing below */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Make online reputation management headings larger with spacing below */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Make social media marketing headings larger with spacing below */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+ /* Aside benefit listing of heriseon */
+ .benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/* Space out befint in sidebar with bottom margin */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
 
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* center out benifit header and space below */
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* set the image benefit header with some spacing above and centered */
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*centered footer with all page content with specified padding and font-family */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
-.footer h2 {
+/* footer header font size */
+.footer h4 {
     font-size: 20px;
 }
+
