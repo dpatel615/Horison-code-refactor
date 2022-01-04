@@ -11,4 +11,11 @@ The following are the steps for the refactor:
 * Images elements were updated with alt attributes
 * Heading attributes were update such that it fall in sequential order
 * Application's links were updated to function correctly
-* CSS 
+* CSS selectors and properties were organized in such a way that it follow semantic structure
+* CSS and HMTL files were updated with comments
+
+# mock-up
+The following image shows the web application's appearance:
+
+![The Horiseon wedpage inculdes a navigation bar, a header image, and cards with text and images at the bottom of the page.] (https://github.com/dpatel615/Horison-code-refactor/blob/main/assets/images/Screen%20Shot%202022-01-03%20at%206.30.21%20PM.png)
+
